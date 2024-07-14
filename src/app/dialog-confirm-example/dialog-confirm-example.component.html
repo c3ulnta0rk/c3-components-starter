@@ -1,0 +1,5 @@
+<button mat-raised-button (click)="openDialog()">Open Dialog</button>
+
+@if (dialogResult() !== undefined) {
+  <p>You chose: {{ dialogResult() ? "true" : "false" }}</p>
+}
