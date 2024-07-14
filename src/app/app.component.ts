@@ -1,12 +1,10 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { C3DialogModule } from 'c3-components';
 
 @Component({
   selector: 'app-root',
   standalone: true,
   imports: [RouterOutlet],
-  templateUrl: './app.component.html',
-  styleUrl: './app.component.scss',
+  template: '<router-outlet />',
 })
 export class AppComponent {}
